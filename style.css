@@ -362,4 +362,55 @@ a:hover{
 .professional p { color: #aaa; margin-bottom: 30px; }
 
 
+/* article 3 */
+.art5 {
+    display: flex;
+    align-items: center;      /* Центровка по вертикали */
+    justify-content: center;  /* Центровка всего контента */
+    gap: 80px;               /* Расстояние между текстом и картинкой */
+    max-width: 1200px;
+    margin: 100px auto;       /* Отступы секции от других блоков */
+    padding: 0 20px;
+}
+
+/* Левая часть с текстом */
+.art5 section {
+    flex: 1;                 /* Занимает половину ширины */
+}
+
+.art5 h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    color: #111;
+}
+
+.art5 p {
+    font-size: 16px;
+    color: #666;
+    max-width: 450px;        /* Чтобы текст не растягивался слишком сильно */
+    margin-bottom: 40px;
+}
+
+/* Кнопка */
+.art5btn {
+    background-color: #e2f1a6; /* Салатовый как на макете */
+    border: none;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.art5btn:hover {
+    background-color: #d4e593;
+}
+
+/* Правая часть с картинкой */
+.art5img {
+    flex: 1;
+    max-width: 550px;        /* Ограничиваем размер картинки */
+    height: auto;
+}
 
