@@ -253,3 +253,113 @@ a:hover{
 }
 
 
+.pricing {
+    background-color: #0a0a0a; /* Темный фон всей секции */
+    color: #fff;
+    padding: 80px 20px;
+    font-family: sans-serif;
+}
+
+.pricing-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.pricing-header h2 { font-size: 32px; margin-bottom: 15px; }
+.pricing-header p { color: #888; }
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 450px); /* Две колонки */
+    justify-content: center;
+    gap: 30px;
+}
+
+.plan-card {
+    background-color: #161616;
+    border-radius: 24px;
+    padding: 40px;
+    border: 1px solid #222;
+}
+
+.plan-card h3 { font-size: 24px; margin-bottom: 15px; }
+.plan-desc { color: #888; font-size: 14px; margin-bottom: 30px; height: 40px; }
+
+.price { font-size: 36px; font-weight: bold; margin-bottom: 25px; }
+.price span { font-size: 16px; color: #666; font-weight: normal; }
+
+/* Кнопки */
+.btn-outline {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #444;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 40px;
+    transition: 0.3s;
+}
+
+.btn-outline:hover { background: #fff; color: #000; }
+
+.btn-filled {
+    background-color: #e2f1a6; /* Салатовый цвет как на макете */
+    color: #000;
+    padding: 15px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Список преимуществ */
+.features-title { 
+    text-align: center; 
+    color: #666; 
+    font-size: 12px; 
+    text-transform: uppercase; 
+    margin-bottom: 20px;
+    border-top: 1px solid #222;
+    padding-top: 20px;
+}
+
+.features-list ul { list-style: none; padding: 0; }
+.features-list li { 
+    margin-bottom: 15px; 
+    font-size: 14px; 
+    display: flex; 
+    align-items: center; 
+}
+
+/* Иконка галочки */
+.features-list li::before {
+    content: '✔';
+    margin-right: 12px;
+    background: #333;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+/* Стили для нижней широкой карточки */
+.professional {
+    grid-column: 1 / 3; /* Растягиваем на 2 колонки */
+    background: linear-gradient(135deg, #0d2527 0%, #081212 100%);
+    border: 1px solid #1a3a3a;
+    text-align: center;
+}
+
+.pro-content {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.professional h3 { margin-bottom: 10px; }
+.professional p { color: #aaa; margin-bottom: 30px; }
+
+
+
