@@ -414,3 +414,35 @@ a:hover{
     height: auto;
 }
 
+.art6{
+    display: flex;
+    align-items: center;      /* Центровка по вертикали */
+    justify-content: center; 
+    flex-direction: column;
+    background-color: #142f32;
+    height: 350px;
+}
+
+
+.art6 > h2,p{
+    color: white;
+}
+
+.art6 > h2{
+    padding-top: 40px;
+    font-size: 35px;
+}
+
+.art6txt {
+    padding: 20px;
+}
+.art6btn{
+    background-color: #e2f1a6; /* Салатовый как на макете */
+    border: none;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+}
